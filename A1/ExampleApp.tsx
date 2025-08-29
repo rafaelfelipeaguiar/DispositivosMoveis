@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, SafeAreaView, ScrollView } from 'react-native';
-import TextMirror from './TextMirror';
+import TextMirror from '../TextMirror';
 
 function ExampleApp() {
   return (
