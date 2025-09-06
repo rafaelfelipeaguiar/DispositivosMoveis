@@ -1,6 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { View, ScrollView } from 'react-native';
-import TextMirror from './components/TextMirror';
+import { ScrollView } from 'react-native';
 import ImageComponent from './components/ImageComponent';
 
 export default function App() {
@@ -9,14 +8,10 @@ export default function App() {
       flexGrow: 1,
       justifyContent: 'center',
       alignItems: 'center',
-      paddingHorizontal: 20,
-      paddingVertical: 40
+      paddingHorizontal: 10,
+      paddingVertical: 10
     }}>
       <ImageComponent />
-      
-      <View style={{ marginTop: 30 }}>
-        <TextMirror placeholder="Digite algo aqui..." />
-      </View>
       
       <StatusBar style="auto" />
     </ScrollView>
